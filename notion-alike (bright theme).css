@@ -52,6 +52,7 @@ body .main-editor-wrapper .cm-editor .size-header-1{
     font-weight: 600;
     margin-top: 0px; /* Adjust margin for spacing */
     margin-bottom: 0px; /* Adjust margin for spacing */
+	    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
 
 }
 
@@ -90,7 +91,6 @@ body .main-editor-wrapper .cm-editor .size-header-3 {
 /* Headings 4-6*/
 body .main-editor-wrapper .cm-editor .size-header-4{
     font-size: 20px;
-    margin-top: 24px;
     margin-bottom: 1px; /* Adjust margin for spacing */
     max-width: 100%;
     width: 100%;

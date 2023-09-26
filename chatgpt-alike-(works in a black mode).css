@@ -1,16 +1,32 @@
 /* Define the background color for the main content */
 body .main-editor-wrapper .cm-editor .cm-scroller > div {
     background-color: #333344; /* Background color for main content */
-    color: #f5f5f5; /* Text color for main content */
+    color: #ececf1; /* Text color for main content */
     line-height: 1.5; /* Adjust line-height for readability */
     padding: 20px; /* Increase padding for better spacing */
     border-radius: 10px; /* Add border-radius for a softer look */
+	   white-space: pre-wrap;
+    word-break: break-word;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+      font-size: 1.035em;
 }
 body {
     font-feature-settings: normal;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";    font-variation-settings: normal;
     background-color: #333;  
 }
+
+
+/* Hide the elements with specific class names */
+.cm-layer.cm-layer-above.cm-cursorLayer,
+.cm-layer.cm-selectionLayer,
+.cm-layer.cm-codeBackgroundLayer,
+.cm-gutters,
+.cm-layer.cm-inlineCodeBackgroundLayer {
+   box-shadow: none !important; /* Remove the box shadow */
+    background-color: #14141e !important; /* Set the background color */
+}
+ 
 
 /* Headings 1-3*/
 body .main-editor-wrapper .cm-editor .size-header-1{
@@ -30,7 +46,7 @@ body .main-editor-wrapper .cm-editor .size-header-2 {
 	    color: #f5f5f5;
     font-weight: 500;
     margin-top: 24px; /* Adjust margin for spacing */
-    margin-bottom: 8px; /* Adjust margin for spacing */
+    margin-bottom: 1px; /* Adjust margin for spacing */
    font-family: -apple-system, BlinkMacSystemFont, 'Avenir Next', 'Avenir', 'Helvetica Neue', Helvetica, Ubuntu, Roboto, Noto, 'Segoe UI', Arial, sans-serif;
 
 }
