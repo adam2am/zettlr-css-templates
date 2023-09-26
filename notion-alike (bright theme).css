@@ -1,3 +1,12 @@
+/* I like minimalistic h1 h2 h3 approach here, with 30 24 20px.
+Big - Medium - Small*/
+
+.main-editor-wrapper {
+
+    background-color: #efede6;
+;
+}
+
 /* Define the background color for the main content */
 body .main-editor-wrapper .cm-editor .cm-scroller > div {
     background-color: #fff; /* Background color for main content */
@@ -8,14 +17,27 @@ body .main-editor-wrapper .cm-editor .cm-scroller > div {
    white-space: pre-wrap;
     word-break: break-word;
     caret-color: rgb(55, 53, 47);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+
 }
+
 
 
 .cm-scroller ::selection {
     background-color: #ff8800 !important;
     color: #ff8800 !important;
 }
+/* Hide the elements with specific class names */
+.cm-layer.cm-layer-above.cm-cursorLayer,
+.cm-layer.cm-selectionLayer,
+.cm-layer.cm-codeBackgroundLayer,
+.cm-gutters,
+.cm-layer.cm-inlineCodeBackgroundLayer {
+   box-shadow: none !important; /* Remove the box shadow */
+    background-color: #efede6 !important; /* Set the background color */
 
+ 
+}
 
 body {
     font-feature-settings: normal;
@@ -30,7 +52,7 @@ body .main-editor-wrapper .cm-editor .size-header-1{
     font-weight: 600;
     margin-top: 0px; /* Adjust margin for spacing */
     margin-bottom: 0px; /* Adjust margin for spacing */
-    margin-top: 16px;
+
 }
 
 
