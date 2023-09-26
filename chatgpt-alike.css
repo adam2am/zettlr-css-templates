@@ -70,13 +70,6 @@ body .main-editor-wrapper .cm-editor .cm-code-mark {
   font-weight: 520; 
 }
 
-td {
-  user-select: none; 
-}
-
-td a {
-  pointer-events: auto;
-}
 
 /* Selection */
 .cm-scroller ::selection {
