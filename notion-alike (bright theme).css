@@ -129,6 +129,12 @@ body .main-editor-wrapper .cm-editor .cm-code-mark {
     max-width: 650px;
     height: auto;
 }
+/* Delete the Italic, make it normal + underline  */
+body .main-editor-wrapper .cm-editor .cm-emphasis {
+    font-style: normal;
+        text-decoration: underline;
+
+}
 
 /* Table Header */
 table.table-helper tr:first-child {
