@@ -1,0 +1,142 @@
+/* Define the background color for the main content */
+body .main-editor-wrapper .cm-editor .cm-scroller > div {
+    background-color: #fff; /* Background color for main content */
+    color: #37352F; /* Text color for main content */
+    line-height: 1.5; /* Adjust line-height for readability */
+    padding: 20px; /* Increase padding for better spacing */
+    border-radius: 10px; /* Add border-radius for a softer look */
+   white-space: pre-wrap;
+    word-break: break-word;
+    caret-color: rgb(55, 53, 47);
+}
+::selection {
+    background: rgba(35,131,226,.28);
+}
+
+body {
+    font-feature-settings: normal;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #333;  
+}
+
+/* Headings 1-3*/
+body .main-editor-wrapper .cm-editor .size-header-1{
+      font-size: 30px;
+    color: #;
+    font-weight: 600;
+    margin-top: 0px; /* Adjust margin for spacing */
+    margin-bottom: 0px; /* Adjust margin for spacing */
+    margin-top: 16px;
+}
+
+
+body .main-editor-wrapper .cm-editor .size-header-2 {
+        font-size: 24px;
+    margin-top: 24px;
+    margin-bottom: 1px; /* Adjust margin for spacing */
+    max-width: 100%;
+    width: 100%;
+    white-space: pre-wrap;
+    word-break: break-word;
+    caret-color: #37352f;
+    padding: 3px 2px;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+body .main-editor-wrapper .cm-editor .size-header-3 {
+        font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 1px; /* Adjust margin for spacing */
+    max-width: 100%;
+    width: 100%;
+    white-space: pre-wrap;
+    word-break: break-word;
+    caret-color: #37352f;
+    padding: 3px 2px;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+
+/* Headings 4-6*/
+body .main-editor-wrapper .cm-editor .size-header-4{
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 1px; /* Adjust margin for spacing */
+    max-width: 100%;
+    width: 100%;
+    white-space: pre-wrap;
+    word-break: break-word;
+    caret-color: #37352f;
+    padding: 3px 2px;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 600;
+    line-height: 1.3;  
+}
+
+
+body .main-editor-wrapper .cm-editor .size-header-5,
+body .main-editor-wrapper .cm-editor .size-header-6 {
+    margin-top: 24px;
+    margin-bottom: 1px; /* Adjust margin for spacing */
+    max-width: 100%;
+    width: 100%;
+    white-space: pre-wrap;
+    word-break: break-word;
+    caret-color: #37352f;
+    padding: 3px 2px;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 600;
+    line-height: 1.3;
+
+}
+
+/* Code Blocks and Tables */
+.cm-editor .cm-table,
+.cm-editor .cm-zkn-tag,
+.cm-editor .cm-strong,
+body .main-editor-wrapper .cm-editor .cm-code-mark {
+    color: #;
+    font-weight: bold;
+
+
+}
+
+/* Links */
+body .main-editor-wrapper .cm-editor a.markdown-link,
+body .main-editor-wrapper .cm-editor .cm-link {
+    color: #4dc8ff;
+    font-size: 1.030em;
+}
+
+
+body .main-editor-wrapper .cm-editor .cm-code-mark {
+    color: #47A5D7;
+  font-weight: 520; 
+}
+
+td {
+  user-select: none; 
+}
+
+td a {
+  pointer-events: auto;
+}
+
+
+/* Image Container */
+.editor-image-container img {
+    max-width: 650px;
+    height: auto;
+}
+
+/* Table Header */
+table.table-helper tr:first-child {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.025em;
+    font-family: Helvetica;
+}
