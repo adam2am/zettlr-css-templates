@@ -9,9 +9,13 @@ body .main-editor-wrapper .cm-editor .cm-scroller > div {
     word-break: break-word;
     caret-color: rgb(55, 53, 47);
 }
-::selection {
-    background: rgba(35,131,226,.28);
+
+
+.cm-scroller ::selection {
+    background-color: #ff8800 !important;
+    color: #ff8800 !important;
 }
+
 
 body {
     font-feature-settings: normal;
@@ -108,22 +112,15 @@ body .main-editor-wrapper .cm-editor .cm-code-mark {
 /* Links */
 body .main-editor-wrapper .cm-editor a.markdown-link,
 body .main-editor-wrapper .cm-editor .cm-link {
-    color: #4dc8ff;
+    color: #47A5D7;
     font-size: 1.030em;
+   font-weight: bold;
 }
 
 
 body .main-editor-wrapper .cm-editor .cm-code-mark {
     color: #47A5D7;
   font-weight: 520; 
-}
-
-td {
-  user-select: none; 
-}
-
-td a {
-  pointer-events: auto;
 }
 
 
